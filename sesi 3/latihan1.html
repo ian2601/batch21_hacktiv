@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1 CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css" >
+       .kotak1 {
+        width: 15%;
+        height: 20%;
+        background-color: violet;
+        float: left;
+        margin: 50px 15px 22px 5px; /* atas kanan bawah kiri */
+       }
+       .kotak2 {
+        width: 30%;
+        height: 8em;
+        background-color: brown;
+        float: left;
+        padding: 5em;
+       }
+    </style>
+</head>
+<body>
+    <div id="header">
+        Latihan HTML + CSS
+    </div>
+    <div id="sidebar">
+        <nav>
+            <ul>
+                <li class="background_kuning"><a href="#">Home</a></li>
+                <li ><a href="#">Portfolio</a></li>
+                <li class="background-kuning"><a href="#">Tentang</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="content">
+        <h2>Ini Judul..</h2>
+        <div class="kotak1">
+            <p class="tulisan_tebal">Ini isi kotak 1</p>
+        </div>
+        <div class="kotak2">
+            <p>Ini isi kotak 2</p>
+        </div>
+        <p id="paragraf_khusus">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eaque quia magnam ex quis fugiat. 
+            Perferendis explicabo facere vel magni, delectus quisquam aliquam neque, 
+            nemo animi maxime assumenda cupiditate laudantium.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eaque quia magnam ex quis fugiat. 
+            Perferendis explicabo facere vel magni, delectus quisquam aliquam neque, 
+            nemo animi maxime assumenda cupiditate laudantium.</p>
+        
+        <button class="background_biru tulisan_putih">Simpan</button>
+    </div>
+    <div id="footer">
+       <p> Copyright &copy; 2022. All Right Reserved.</p><br/>
+        Ian Aditya
+    </div>
+</body>
+</html>
