@@ -1,0 +1,95 @@
+body {
+    background-color: #f6f7fc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    top:0;
+    box-shadow: 0 4px 28px 0 grey;
+    z-index: 2;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+}
+li a {
+    display: block;
+    color: #aaaaaa;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: blue;
+    color: #fff;
+}
+.profile {
+    background-color: #ffffff;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 3em;
+    border-radius: 5px;
+}
+.left {
+    float: left;
+    padding-left: 100px;
+}
+.right {
+    float: left;
+    padding-left: 35px;
+    padding-top: 25px;
+}
+.kontak {
+    background-color: blue;
+    color: #fff;
+    height: 30px;
+    width: 40%;
+    border: solid 1px blue;
+}
+.resume {
+    background-color: #ffffff;
+    color: #2f6e16;
+    border: solid 1px#2f6e16;
+    height: 30px;
+    width: 40%;
+    border-radius: 5px;
+}
+.card-form {
+    margin-top: 60px;
+    background-color: #ffffff;
+    width: 100%;
+    top: 3em;
+}
+.card-input {
+    padding: 20px;
+}
+input[type="text"], input[type="number"], input[type="email"] {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.kontak:hover, .resume:hover {
+    cursor: pointer;
+    background-color: #2f6e16;
+    color: #ffffff;
+}
+.submit {
+    width: 100%;
+    background-color: #2f6e16;
+    height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.submit:hover {
+    background-color: #1b410b;
+}
+.content {
+    margin: 40px;
+}
